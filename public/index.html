@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POMN Poliwangi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-50 font-sans">
+    <header
+      class="fixed top-0 left-0 w-full p-4 bg-white shadow-md flex flex-col items-center space-y-2 z-50"
+    >
+      <div class="flex justify-between items-center w-full mb-5">
+        <!-- Logo -->
+        <div class="flex items-center space-x-4">
+          <img src="asset/1.png" alt="Logo" class="w-10 h-10 rounded-full" />
+        </div>
+
+        <!-- Search bar -->
+        <div class="flex-1 mx-4">
+          <input
+            type="text"
+            placeholder="Cari"
+            class="border border-gray-300 rounded-full px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex items-center space-x-4">
+          <button
+            class="px-4 py-2 text-blue-900 border border-blue-900 rounded-full hover:bg-blue-100"
+          >
+            <i class="fas fa-sign-in-alt"></i> Login
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="flex space-x-8 text-gray-700 mt-4">
+        <a
+          href="#"
+          class="text-blue-900 font-semibold border-b-2 border-blue-900"
+          >Beranda</a
+        >
+        <a href="#" class="hover:text-blue-500">Informasi Bahan</a>
+        <a href="#" class="hover:text-blue-500">Produk</a>
+        <a href="#" class="hover:text-blue-500">Tentang Kami</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-6 space-y-6 pt-36 mx-4">
+      <!-- Featured Banner -->
+      <div class="bg-blue-900 h-60 w-auto rounded-lg"></div>
+
+      <!-- Rekomendasi Produk -->
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Rekomendasi Produk</h2>
+        <div class="flex space-x-4 overflow-x-auto">
+          <!-- Produk Card -->
+          <div class="w-48 bg-white shadow-md rounded-lg overflow-hidden">
+            <img
+              src="asset/popmie bakso.webp"
+              alt="Produk"
+              class="w-full h-24 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800">Nama Produk</h3>
+              <p class="text-sm text-gray-500">Deskripsi singkat produk.</p>
+            </div>
+          </div>
+          <!-- produk bisa tambah di sini-->
+        </div>
+      </section>
+
+      <!-- Lokasi dan Cuaca -->
+      <section class="flex space-x-4">
+        <div class="flex-1 bg-white shadow-md rounded-lg p-4">
+          <img
+            src="path-to-map.jpg"
+            alt="Map"
+            class="w-full h-48 object-cover rounded-lg"
+          />
+        </div>
+        <div
+          class="w-1/3 bg-purple-200 shadow-md rounded-lg p-4 flex flex-col items-center text-center"
+        >
+          <h2 class="text-3xl font-semibold">32°C</h2>
+          <p class="text-sm text-gray-600">Sunny</p>
+          <!-- Cuaca detail lainnya -->
+        </div>
+      </section>
+
+      <!-- Direkomendasikan Produk -->
+      <section>
+        <h2 class="text-xl font-semibold mb-4">Direkomendasikan Produk</h2>
+        <div class="grid grid-cols-3 gap-4">
+          <!-- Produk Card -->
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img
+              src="path-to-image.jpg"
+              alt="Produk"
+              class="w-full h-24 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800">Nama Produk</h3>
+              <p class="text-sm text-gray-500">Deskripsi singkat produk.</p>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img
+              src="path-to-image.jpg"
+              alt="Produk"
+              class="w-full h-24 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800">Nama Produk</h3>
+              <p class="text-sm text-gray-500">Deskripsi singkat produk.</p>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img
+              src="path-to-image.jpg"
+              alt="Produk"
+              class="w-full h-24 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800">Nama Produk</h3>
+              <p class="text-sm text-gray-500">Deskripsi singkat produk.</p>
+            </div>
+          </div>
+          <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img
+              src="path-to-image.jpg"
+              alt="Produk"
+              class="w-full h-24 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold text-gray-800">Nama Produk</h3>
+              <p class="text-sm text-gray-500">Deskripsi singkat produk.</p>
+            </div>
+          </div>
+          <!-- produk bisa tambah di sini-->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white pb-2 mt-6">
+      <div class="flex justify-between p-6 mx-4">
+        <div
+          class="w-40 h-40 rounded-full overflow-hidden flex justify-center"
+        >
+          <img
+            src="asset/1.png"
+            alt="Logo"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div>
+          <h3 class="font-bold">Menu</h3>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Rekomendasi Produk</a></li>
+            <li><a href="#" class="hover:underline">Promo</a></li>
+            <li><a href="#" class="hover:underline">Tracking Order</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold">Kontak Kami</h3>
+          <ul class="space-y-1">
+            <li>Jalan Raya Banyuwangi</li>
+            <li>Email: info@example.com</li>
+            <li>Telp: +62 123 456 789</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex justify-between items-center border-t">
+        <div class="m-auto mt-4">
+          <p>&copy; 2024 Politeknik Negeri Banyuwangi</p>
+        </div> 
+      </div>
+    </footer>
+  </body>
+</html>
